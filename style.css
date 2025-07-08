@@ -1,0 +1,93 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-bg {
+  background: url('a.jfif') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card {
+background: url('a.jfif') no-repeat center center/cover;
+  max-width:  350px;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.profile-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  border: 0px solid #f5f5f5;
+  margin-top: -90px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+
+h1 {
+  margin-top: 15px;
+  color: #de9eab;
+  font-size: 26px;
+}
+
+.bio {
+  color: #d18989;
+  margin: 10px 0 20px;
+}
+hr{
+  color: #362020;
+  border-width: 2px;
+  margin: 20px;
+}
+
+h2{
+  color: #d18989;
+}
+.horizontal-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 25px;
+}
+
+.horizontal-list li {
+  background-color: #dbcdd7;
+  color: #d18989;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+
+.linkedin-btn {
+  display: inline-block;
+  background-color: #dbcdd7;
+  color: #d18989;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.linkedin-btn:hover {
+  background-color: #362020;
+}
